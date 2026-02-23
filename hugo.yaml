@@ -1,0 +1,22 @@
+baseURL: 'https://jiakon.github.io/ai1001'
+languageCode: 'zh-cn'
+title: 'AI1001'
+theme: 'ananke'
+
+[params]
+  author = 'AI1001'
+  description = 'AI1001 技术博客'
+
+[menu]
+  [[menu.main]]
+    name = '首页'
+    url = '/'
+    weight = 10
+  [[menu.main]]
+    name = '文章'
+    url = '/posts/'
+    weight = 20
+  [[menu.main]]
+    name = '关于'
+    url = '/about/'
+    weight = 30
